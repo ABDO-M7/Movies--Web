@@ -1,0 +1,99 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #0e0e0e;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
+
+.login-container {
+  background-color: #1c1c1c;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.login-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 1rem 0;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: #2a2a2a;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.login-container input[type="text"]:focus,
+.login-container input[type="password"]:focus {
+  outline: none;
+  border: 1px solid #ff005c;
+}
+
+.login-container button {
+  width: 50%;
+  padding: 0.8rem;
+  border: 2px solid #ff005c;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+  background-color: #ff005c;
+}
+.social-login {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.social-login button {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 48%;
+  cursor: pointer;
+}
+
+.facebook-btn {
+  background: linear-gradient(to bottom left, rgb(60, 140, 231), darkblue);
+  color: white;
+}
+
+.google-btn {
+  background: linear-gradient(to top left, rgb(114, 61, 4), rgb(183, 20, 20));
+  color: white;
+}
+.forgot-password {
+  display: block;
+  margin-bottom: 10px;
+  color: #0d2bee;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+p {
+  color: #ff005c;
+  font-size: 14px;
+}
+
+p a {
+  color: #0d2bee;
+  text-decoration: none;
+}
